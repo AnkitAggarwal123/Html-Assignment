@@ -4,135 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="MajorStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
-
-<style>
-
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    :root {
-    --blue: #007bff;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd7e14;
-    --yellow: #ffc107;
-    --green: #28a745;
-    --teal: #20c997;
-    --cyan: #17a2b8;
-    --white: #fff;
-    --gray: #6c757d;
-    --gray-dark: #343a40;
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #343a40;
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-}
-
-html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-    
-
-    nav{
-        /* border: 2px black solid; */
-        padding-top: 25px;
-        padding-right: 5px;
-        position: fixed;
-        width: 100%;
-        
-    }
-
-    .navbar{
-        list-style-type: none;
-        display: flex;
-        gap: 10px;
-        color: white;
-        justify-content: end;
-       font-family: 'Open Sans', sans-serif;
-       font-size: 15px;
-    }
-
-    .home{
-        height: 110vh;
-        background-image: url("./images/home.jpg");
-        background-size: cover;
-        /* padding-left: 50px;
-        padding-top: 50px; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .a{
-        color: white;
-        align-items: center;
-
-    }
-
-    .intro{
-        display: flex;
-        margin: 100px;
-        gap: 50px;
-        /* margin-top: 100px;
-        margin-right: 100px;
-        margin-left: 100px; */
-    }
-
-    #image{
-        height: 400px;
-        width: 1000px;
-    }
-
-    .intro img{
-        width: 500px;
-        border-radius: 50px;
-    }
-
-    .introend{
-        display: flex;
-        gap: 100px;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-bottom: 100px;
-    }
-
-    #center{
-        margin: auto;
-        width: 350px;
-        text-align: center;
-    }
-
-    .card img{
-        /* display: flex; */
-        height: 500vh;
-        width: 500px;
-    }
-
-</style>
 <body>
 
     <nav>
+        <div>
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page259/aria/assets/images/logo.svg" alt="image">
+        </div>
         <ui class="navbar">
             <li>HOME</li>
             <li>INTRO</li>
@@ -148,52 +30,308 @@ html {
 
         <div class="a">
             <h1>BUSINESS TEMPLATE</h1>
-            <p>Aria is a top consultancy company specializing in business growth using online marketing and conversion optimization tactics</p>
+            <p class = "ma">Aria is a top consultancy company specializing in business growth using online marketing and conversion optimization tactics</p>
+            <div class = "hm">
+                <p>DISCOVER</p>
+            </div>
         </div>
+
     </div>
+
 
     <div class="intro">
         <div id="introdiv">
-            <h1>We Offer Some Of The Best Business Growth Services In Town</h1>
+            <p id="in">INTRO</p>
             <br>
-            <p>Launching a new company or developing the market position of an existing one can be quite an overwhelming processs at times.</p>
+            <h2>We Offer Some Of The Best Business Growth Services In Town</h2>
             <br>
-            <p>"Our mission here at Aira is to get you through those tough moments relying on our team's expertise in starting and growing companies."</p>
+            <p class="ab">Launching a new company or developing the market position of an existing one can be quite an overwhelming processs at times.</p>
             <br>
-            <h4>Louise Donovan - CEO</h4>
+            <p class="ab">"Our mission here at Aira is to get you through those tough moments relying on our team's expertise in starting and growing companies."</p>
+            <br>
+            <h4 style="color: #484a46;">Louise Donovan - CEO</h4>
         </div>
-        <img src="./images/intro.jpg" alt="image" id = "image">
+            <img src="./images/intro.jpg" alt="image">
+        
     </div>
 
     <div class="introend">
-        <div>
-            <h2>Environment Analysis</h2>
-            <br>
-            <p>The starting point of any success story is knowing your current position in the business environment</p>
+        <div class="ac">
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page259/aria/assets/images/hexagon-green.svg" alt="image">
+            <h4 class="Headfontclass">Environment Analysis</h4>
+            <p class="Pfontclass">The starting point of any success story is knowing your current position in the business environment</p>
         </div>
-        <div>
-            <h2>Development Planning</h2>
-            <br>
-            <p>After completing the environmental analysis the next stage is to design and plan your development strategy</p>
+        <div class="ac">
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page259/aria/assets/images/hexagon-green.svg" alt="image">
+            <h4 class="Headfontclass">Development Planning</h4>
+            <p class="Pfontclass">After completing the environmental analysis the next stage is to design and plan your development strategy</p>
         </div>
-        <div>
-            <h2>Execution & Evaluation</h2>
-            <br>
-            <p>In this phase you will focus on executing the actions plan and evaluating the results after each marketing campaign</p>
+        <div class="ac">
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page259/aria/assets/images/hexagon-green.svg" alt="image">
+            <h4 class="Headfontclass">Execution & Evaluation</h4>
+            <p class="Pfontclass">In this phase you will focus on executing the actions plan and evaluating the results after each marketing campaign</p>
         </div>
     </div>
 
-    <div>
-        <div id="center">
-            <h2>Choose The Service Package
+    <div class="d">
+        <p id = "Service">SERVICES</p>
+            <h2 id = "center" class="Headfontclass">Choose The Service Package
+                <br>
             That Suits Your Needs</h2>
+
+            <div class="allcard">
+                <div>  
+                    <div class="card">
+                        <img src="./images/tea.jpg" alt="image">
+            
+                        <h3 class="Headfontclass d">Off The Ground Off <br>
+                             The Ground</h3>
+                        <p class="Pfontclass">Perfect for fresh ideas or young startups, this package will help get the business off the ground</p>
+                        <br>
+                        <div class="e">
+                            <div class="f"></div>
+                            <div class="Pfontclass">
+                                <p>
+                                    Environment and competition
+                                </p>
+                            </div>
+                        </div>
+                        <div class="e">
+                            <div class="f"></div>
+                            <div class="Pfontclass">
+                                <p>
+                                    Designing the marketing plan
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <p class="h">Starting at <span style="color: #14bf98;;">$199</span></p>
+                    </div>
+            
+                    <div class="i">
+                        <P>Details</P>
+                    </div>
+                    </div>  
+            
+                    <div>  
+                        <div class="card">
+                            <img src="./images/tea.jpg" alt="image">
+                
+                            <h3 class="Headfontclass d">Accelerated Growth</h3>
+                            <p class="Pfontclass">Use this service pack to give your company the necessary impulse to become an industry leader</p>
+                            <br>
+                            <div class="e">
+                                <div class="f"></div>
+                                <div class="Pfontclass">
+                                    <p>
+                                        Business strategy planning
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="e">
+                                <div class="f"></div>
+                                <div class="Pfontclass">
+                                    <p>
+                                        Taking the planned actions
+                                    </p>
+                                </div>
+                            </div>
+                            <br>
+                            <p class="h">Starting at <span style="color: #14bf98;;">$299</span></p>
+                        </div>
+                
+                        <div class="speacial">
+                            <P>Details</P>
+                        </div>
+                    </div>
+                    
+                    <div>  
+                        <div class="card">
+                            <img src="./images/tea.jpg" alt="image">
+                
+                            <h3 class="Headfontclass d">Market Domination</h3>
+                            <p class="Pfontclass">You already are a reference point in your industry now you need to learn about acquisitions</p>
+                            <br>
+                            <div class="e">
+                                <div class="f"></div>
+                                <div class="Pfontclass">
+                                    <p>
+                                        Maintaining the leader status
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="e">
+                                <div class="f"></div>
+                                <div class="Pfontclass">
+                                    <p>
+                                        Acquisitions the right way
+                                    </p>
+                                </div>
+                            </div>
+                            <br>
+                            <p class="h">Starting at <span style="color: #14bf98;;">$299</span></p>
+                        </div>
+                
+                        <div class="speacial">
+                            <P>Details</P>
+                        </div>
+                    </div>  
+
+            </div>
+
+
+        
+
+    </div>
+
+    <div class="box">
+        <div class ="area">
         </div>
-
-        <div class="card">
-            <img src="./images/tea.jpg" alt="image">
+        <div class="l">
+            <div>
+                <h2 class="classh2">Accelerate Business Growth <br>
+                     To Improve Revenue Numbers</h2>
+                <div class = "k">
+                    <div class = "j">1</div>
+                    <p class="h">How Can Aria Help Your Business</p>
+                </div>
+    
+                <div class = "k">
+                    <div class = "j">2</div>
+                    <p class="h">Great Strategic Business Planning</p>
+                </div>
+    
+                <div class = "k">
+                    <div class = "j">3</div>
+                    <p class="h">Online Marketing Campaigns</p>
+                </div>
+            </div>
 
         </div>
+    </div>
 
+    <div class="n">
+        <div class="o">
+            <div class="t">
+                <div class="q">
+                    <div class="p"></div>
+                    <p class="Headfontclass ">Business</p>
+                </div>
+                <br>
+                <br>
+                <h4 class="Headfontclass">Business Services For Companies</h4>
+                <br>
+                <p class="Pfontclass">Aria provides the most innovative and customized business services in the industry. Our Services section shows how flexible we are for all types of budgets.</p>
+                <br>
+    
+                <div>
+                    <p class="r">Business Development 100%</p>
+                    <div class="s"></div>
+                </div>
+                <br>
+                
+                <div>
+                    <p class="r">Opportunity Spotting 76%</p>
+                    <div class="u"></div>
+                </div>
+                <br>
+
+                <div>
+                    <p class="r">Online Marketing 90%</p>
+                    <div class="v"></div>
+                </div>
+            </div>
+        </div>
+        <div class="m">
+        </div>
+    </div>
+
+    <div class="be">
+        <div class="z">
+            <div >
+                <h2 class="classh2 x">Read Our Customer Testimonials</h2>
+                <p class="Pfontclass y">Our clients are our partners and we can not imagine a better future for our <br> company without helping them reach their objectives</p>
+            </div>
+    
+            <div class="bd">
+                <div>
+                    <div class="ba"></div>
+                    <p class="bb Pfontclass">My goals for using Aria's services seemed high when I first set them but they've met them with no problems.</p>
+                    <p class="bc">Lindsay Rune - Manager</p>
+                </div>
+                <div>
+                    <div class="ba"></div>
+                    <p class="bb Pfontclass">My goals for using Aria's services seemed high when I first set them but they've met them with no problems.</p>
+                    <p class="bc">Lindsay Rune - Manager</p>
+                </div>
+                <div>
+                    <div class="ba"></div>
+                    <p class="bb Pfontclass">My goals for using Aria's services seemed high when I first set them but they've met them with no problems.</p>
+                    <p class="bc">Lindsay Rune - Manager</p>
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+
+    <div class="bf">
+
+        <div class="bg">
+            <div class="ca">
+                <p class="df">CALLME</p>
+                <h2 class="be">Have Us Contact You By Filling And Submitting The Form</h2>
+                <br>
+                <p class="cc">You are just a few steps away from a personalized offer. Just fill in the form and send it to us and we'll get right back with a call to help you decide what service package works.</p>
+                <br>
+                <div class="da">
+                    <div class="db"></div>
+                    <div class="dc">
+                        <p>
+                        It's very easy just fill in the form so we can call
+                        </p>
+                    </div>
+                </div>
+                <div class="da">
+                    <div class="db"></div>
+                    <div class="dc">
+                        <p>
+                        During the call we'll require some info about the company
+                        </p>
+                    </div>
+                </div>
+                <div class="da">
+                    <div class="db"></div>
+                    <div class="dc">
+                        <p>
+                        Don't hesitate to email us for any questions or inquiries
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cb">
+                <div>
+                    <input class="dd" type="Name" placeholder="Name">
+                </div>
+                <div>
+                    <input class="dd" type="number" placeholder="Phone">
+                </div>
+                <div>
+                    <input type="email" class="dd" placeholder="EMAIL">
+                </div>
+                <div>
+                    <input type="text" class="dd" placeholder="INTERSETED....">
+                </div>
+
+                <div class="de">
+                    <p class="call">CallME</p>                    
+                </div>
+
+            </div>
+
+
+        </div>
 
     </div>
 
